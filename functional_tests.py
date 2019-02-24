@@ -12,18 +12,18 @@ class NewVisitorTest(unittest.TestCase):
     def test_can_start_a_list_and_retrieve_it_later(self):
         # Elizabeth has heard about a cool new online to-do app
         # She goes to check out it's home page
-        self.browser.get("http://localhost:8000")
+        self.browser.get('http://localhost:8000')
 
         # She notices the page tile and header mention to-do lists
-        self.assertIn("To-Do", self.browser.title)
-        self.fail("Finish the test!")
+        self.assertIn('To-Do', self.browser.title)
+        #self.fail('Finish the test!')
 
         # She is invited to enter a to-do item straight away
 
-        # She types "Buy peacock feathers" into a text box
+        # She types 'Buy peacock feathers' into a text box
 
         # Satisfied she goes to sleep
 
-if __name__ == "__main__":
-    unittest.main(warnings="ignore")
+if __name__ == '__main__':
+    unittest.main(warnings='ignore')
 
