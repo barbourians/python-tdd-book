@@ -1,5 +1,6 @@
 # Specific to this project
 geckodriver.log
+progress.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
